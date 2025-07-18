@@ -19,7 +19,7 @@ try:
             print(f"Polarity: {polarity}")
             print(f"Subjectivity: {subjectivity}")
 
-            # Polarity sentiment label
+            # Determine sentiment
             if polarity > 0:
                 print('Sentiment: Positive')
             elif polarity == 0:
@@ -27,7 +27,7 @@ try:
             else:
                 print('Sentiment: Negative')
 
-            # Subjectivity label (optional, for fun)
+            # Determine tone
             if subjectivity > 0.5:
                 print('Tone: Subjective')
             elif subjectivity < 0.5:
