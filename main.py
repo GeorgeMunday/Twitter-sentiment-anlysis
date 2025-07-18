@@ -2,7 +2,7 @@ import time
 import tweepy
 from textblob import TextBlob as Text
 
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAGSE3AEAAAAAOUlLexwbCkajyAQiRi6OgOHVtFc%3D7RzzVJK73udoAU9H69SyUrtaUMJhbjyJQpA3XVHi3v7dQCN4V9'
+bearer_token = 'YOUR_BEARER_TOKEN_HERE'
 
 client = tweepy.Client(bearer_token=bearer_token)
 
