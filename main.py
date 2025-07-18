@@ -24,4 +24,4 @@ try:
         print("No tweets found.")
 
 except tweepy.TooManyRequests:
-    print("Rate limit hit. Please wait a few minutes and try again.(Reset in 15 minutes)")
+    print("Rate limit hit. Please wait a few minutes and try again.(Resets in 15 minutes)")
