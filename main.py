@@ -8,7 +8,6 @@ client = tweepy.Client(bearer_token=bearer_token)
 
 try:
     response = client.search_recent_tweets(query="Trump", max_results=10)
-
     if response.data:
         for tweet in response.data:
             print(tweet.text)
@@ -25,4 +24,4 @@ try:
         print("No tweets found.")
 
 except tweepy.TooManyRequests:
-    print("Rate limit hit. Please wait a few minutes and try again.")
+    print("Rate limit hit. Please wait a few minutes and try again.(Reset in 15 minutes)")
